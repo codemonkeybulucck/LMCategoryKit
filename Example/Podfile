@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LMCategoryKit_Example' do
+  pod 'LMCategoryKit', :path => '../'
+
+  target 'LMCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
